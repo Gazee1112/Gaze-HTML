@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML-Table</title>
+</head>
+<body>
+	<p><strong>Table Simple</strong></p>
+	<table border="1" cellspacing="0" cellpadding="10">
+	<tr>
+		<td>baris 1, kolom 1</td>
+		<td>baris 1, kolom 2</td>
+	</tr>
+	<tr>
+		<td>baris 2, kolom 1</td>
+		<td>baris 2, kolom 2</td>
+	</tr>
+	</table>
+
+	<p><strong>Table Complex</strong></p>
+	<table>
+		<thead>
+			<tr>
+				<th></th>
+				<th>Kolom 1</th>
+				<th>Kolom 2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Baris 1</th>
+				<td>Baris 1, Kolom 1</td>
+				<td>baris 1, Kolom 2</td>
+			</tr>
+			<tr>
+				<th>Baris 2</th>
+				<td>Baris 1, Kolom 1</td>
+				<td>Baris 2, Kolom 2</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<p><strong>Penggunaan Rowspan dan Colspan</strong></p>
+	<table border="1" cellspacing="0" cellpadding="5">
+		<tr>
+			<td rowspan="3">rowspan 3</td>
+			<td colspan="2">colspan 2</td>
+		
+		</tr>
+		<tr>
+			<td>2,2</td>
+			<td>2,3</td>
+		</tr>
+		<tr>
+			<td>3,2</td>
+			<td>3,3</td>
+		</tr>
+	</table>
+
+</body>
+</html>
+
+<!-- 
+cara membuat table :
+<table> </table>
+
+keterangan :
+<tr> adalah baris
+<td> adalah kolom
+<thead> adalah table head
+<th> adalah head kolom
+
+Atribut dalam tabel :
+border		: Menambahkan border atau garis
+cellspacing	: MEnambahkan jarak antar cell
+cellpadding	: Memberi luas apada cell 
+colspan		: Untuk menggabungkan cell yang horizontal (kolom)
+rowspan		: untuk menggabungkan cell yang vertikal (baris)
+ -->
